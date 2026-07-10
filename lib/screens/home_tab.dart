@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../services/api_service.dart';
+import '../services/api_services.dart';
 import 'news_detail.dart';
 
 class HomeTab extends StatefulWidget {
