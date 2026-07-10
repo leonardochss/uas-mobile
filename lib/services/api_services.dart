@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'https://fakenews.squirro.com/news/sport';
+  static const String baseUrl = 'https://corsproxy.io/?https://fakenews.squirro.com/news/sport';
 
   static Future<List<dynamic>> fetchNews() async {
     try {
